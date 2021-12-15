@@ -6,8 +6,3 @@ class Resource(models.Model):
     resouce_link = models.URLField()
 
 
-class Project(models.Model):
-    title = models.CharField(max_length=200)
-    description = models.TextField()
-    technology = models.CharField(max_length=20)
-    image = models.CharField(max_length=100)
